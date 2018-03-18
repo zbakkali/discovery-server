@@ -1,0 +1,8 @@
+spring:
+  application.name: discovery-server
+eureka:
+  instance:
+        statusPageUrlPath: /actuator/info
+        healthCheckUrlPath: /actuator/health
+server.port: 8761
+
