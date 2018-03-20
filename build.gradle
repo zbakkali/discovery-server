@@ -38,6 +38,9 @@ dependencies {
     implementation "com.sun.xml.bind:jaxb-impl:2.3.0"
     implementation "javax.activation:activation:1.1.1"
 
+    // connect to the Netflix Eureka Discovery Server
+    implementation "org.springframework.cloud:spring-cloud-starter-netflix-eureka-client"
+
     // Use test frameworks
     testImplementation "org.springframework.boot:spring-boot-starter-test"
 }
